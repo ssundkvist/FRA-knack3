@@ -24,10 +24,14 @@ Lösningsförslag till [FRA-knäck 3](https://www.fra.se/nyheter/nyheter/nyhetsa
 
 6. Analysera grafen
    1. Vilket IP-nummer har chefen för organisationen? (tex: 10.10.10.2)
+   
       Chefen har antagligen det IP-nummer alla terrorister rapporterar till.
    2. Vilket IP-nummer har troligaste ställföreträdaren till chefen?
+   
       I grafen finns det en adress som chefen har skickat trafik till. Vi kan anta att detta är ställföreträdarens IP-nummer.
    3. Hur många celler består gruppen av?
+   
       Här kan vi antingen räkna antalet IP-nummer som har skickat trafik till chefen, eller antalet kluster i grafen.
    4. Vilka två terrorister sammanbor mest troligt?
+   
       I en av cellerna finns det två adresser som inte har skickat någon trafik mellan sig. Eftersom de två terroristerna kan prata direkt med varandra är det troligen dessa två IP-nummer som innehas av de två sammanboende terroristerna.
